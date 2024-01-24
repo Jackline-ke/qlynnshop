@@ -6,7 +6,7 @@ const Hero = () => {
     <div id='hero' className='home w-full h-screen flex items-center justify-center mb-24 lg:mb-6'>
       <div className='w-full lg:h-full text-gray-800 flex flex-col lg:flex-row justify-center items-center px-8 md:px-16 lg:px-32 bg-gradient-to-r from-gray-100/50 to-gray-300'>
         <div className='w-full h-96 lg:h-full flex justify-center mt-52 lg:mt-32'>
-          <img src={hero} className='h-full object-cover'/>
+          <img src={hero} className='h-full object-cover' alt='hero'/>
         </div>
         <div className='text-center py-8 lg:py-0'>
           <h1 className='text-3xl lg:text-6xl'>Best Collection</h1>
