@@ -8,9 +8,9 @@ export const Navbar = () => {
     const handleNav = ()=>{
       setNav(!nav)
     }
-    const closeNav = () => {
-        setNav(false);
-    } 
+    // const closeNav = () => {
+    //     setNav(false);
+    // } 
   return (
     <div className='border border-gray-200 fixed w-full px-8 py-4 md:px-16 text-gray-800 font-serif bg-opacity-70' style={{ backdropFilter: 'blur(5px)', webkitBackdropFilter: 'blur(5px)'/* Set a higher z-index */ }}>
         <div className='flex justify-between items-center'>
@@ -30,7 +30,7 @@ export const Navbar = () => {
                 <Link to='cart' smooth={true} duration={2000} className="flex">
                     <BiCart className='text-2xl cursor-pointer'/>
                     <span className='rounded-full bg-gray-800 px-2 ml-1'>
-                        <span className='text-white font-bold'>3</span>
+                        <span className='text-white font-bold text-sm'>3</span>
                     </span>
                 </Link>
             </div>
@@ -40,7 +40,7 @@ export const Navbar = () => {
                 <Link to='cart' smooth={true} duration={2000} className="flex mr-8">
                     <BiCart className='text-2xl cursor-pointer'/>
                     <span className='rounded-full bg-gray-800 px-2 ml-1'>
-                        <span className='text-white font-bold'>3</span>
+                        <span className='text-white font-bold text-sm'>3</span>
                     </span>
                 </Link>
                 <FaBars size={20} className='cursor-pointer'/>
