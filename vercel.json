@@ -1,6 +1,5 @@
 {
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/index.html" }
-  ],
-  "fallback": [{ "handle": "filesystem" }, { "handle": "miss" }]
+  "redirects": [
+    { "source": "/me", "destination": "/profile.html", "permanent": false }
+  ]
 }
