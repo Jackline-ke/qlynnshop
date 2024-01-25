@@ -12,7 +12,7 @@ export const Navbar = () => {
         setNav(false);
     } 
   return (
-    <div className='fixed w-full px-8 py-4 md:px-16 text-gray-800 font-serif bg-opacity-70' style={{ backdropFilter: 'blur(5px)', webkitBackdropFilter: 'blur(5px)'/* Set a higher z-index */ }}>
+    <div className='border border-gray-200 fixed w-full px-8 py-4 md:px-16 text-gray-800 font-serif bg-opacity-70' style={{ backdropFilter: 'blur(5px)', webkitBackdropFilter: 'blur(5px)'/* Set a higher z-index */ }}>
         <div className='flex justify-between items-center'>
             <Link to='/' smooth={true} duration={2000}>
                 <h1 className='font-bold text-2xl cursor-pointer'>QlynnShop.</h1>
