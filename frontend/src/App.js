@@ -4,14 +4,14 @@ import Blog from './pages/Blog';
 import Cart from './pages/Cart';
 import Home from './pages/Home';
 import Contact from './pages/Contact';
-import { Navbar } from './components/Navbar';
 import NotFound from './NotFound';
+import { Navbar } from './components/Navbar';
 
 const App = () => {
   return (
     <div>
       <Router>
-        <Navbar/> 
+        <Navbar/>
         <Routes>
           <Route path='/' element={<Home/>} />
           <Route path='blog' element={<Blog/>} />
