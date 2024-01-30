@@ -3,7 +3,7 @@ import { FaClock, FaTruck, FaLock } from 'react-icons/fa'
 
 const Services = () => {
   return (
-    <div  id="features" className='lg:py-12 w-full h-full font-serif flex flex-col justify-center items-center px-8 md:px-32'>
+    <div  id="features" className='py-8 lg:py-12 w-full h-full font-serif flex flex-col justify-center items-center px-8 md:px-32'>
       <div data-aos="fade-up" className='flex flex-col lg:flex-row gap-8'>
         <div className='border border-gray-200 rounded-md px-4 md:px-8 py-2 md:py-2 flex flex-col gap-1 items-center'>
           <FaLock className='text-2xl text-gray-800/60'/>

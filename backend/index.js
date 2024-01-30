@@ -1,17 +1,22 @@
-// import express and cors
 const express = require('express')
 const cors = require('cors')
 
-//the application
+const products = require("./products")
+
 const app = express()
-//middleware
+
 app.use(express.json())
 app.use(cors())
 
-//send a request and a respond
 app.get("/", (req, res) =>{
     res.send("Welcome to Qlynnshop")
 })
+app.get("/products", (req, res) =>{
+    res.send(products)
+})
 
-app.listen(5000, console.log("Server is running in port 5000..."))
+
+const port = process.env.PORT || 4000
+
+app.listen(4000, console.log(`Server is running in port ${port}`))
 

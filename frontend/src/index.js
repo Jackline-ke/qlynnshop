@@ -12,7 +12,7 @@ const store = configureStore({
   reducer:{
     products: ProductReducer,
   },
-})
+});
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
