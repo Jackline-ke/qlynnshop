@@ -6,11 +6,11 @@
 
 @layer base{
     h1 {
-        @apply font-sans tracking-wider;
+        @apply font-sans tracking-wider text-gray-800;
         font-family: 'Dancing Script', cursive;
     }
     h2 {
-        @apply font-serif font-semibold;
+        @apply font-serif font-semibold text-gray-800;
         font-family: 'Libre Baskerville', serif;
     }
 }
